@@ -14,9 +14,9 @@ Now the naive solution would be to simply flag certain words (`hurricane`, `blaz
 ![image](https://github.com/user-attachments/assets/acd3d91b-de4f-4394-8878-09824d64bdaf) 
 
 
-In the above image, the author explicitly uses the word `ABLAZE` but means it metaphorically. This is immediately clear to you or I or any other human, especially with the visual aid. But it's less clear to a machine without the context to human language and linguistic expressions that we have.
+### In the above image, the author explicitly uses the word `ABLAZE` but means it metaphorically. This is immediately clear to you or I or any other human, especially with the visual aid. But it's less clear to a machine without the context to human language and linguistic expressions that we have.
 
-My approach saw a baseline accuracy of 73.64% using neural networks, with an improvement of up to 83.64% accuracy through an implementation of an advanced DistiliBERT model. 
+My approach saw a baseline accuracy of **73.64%** using neural networks, with an improvement of up to **83.64%** accuracy through an implementation of an advanced DistiliBERT model.
 
 I experimented with multiple hyperparameters including batch size, number of epochs, and pretrained embeddings to achieve a greater accuracy for this model and learned a lot through error analysis and employing techniques learned from different research papers experimenting with similar datasets and goals.
 

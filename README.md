@@ -9,7 +9,7 @@
 
 * The dataset was obtained from Kaggle and contains thousands of tweets labelled as positive or negative as it relates to whether or not they relate to disasters. The dataset can be found at this link : https://www.kaggle.com/competitions/nlp-getting-started/overview
 
-Now the naive solution would be to simply flag certain words (`hurricane`, `blaze`, `downpour`, etc.) as being likely to refer to a disaster but this may have unintended consequences as it doesn't take into account linguistic patterns and slang which could see them being used in a positive connotation. See the example below for reference to this phenomenon of seemingly disaster-related words being used in a positive context.
+### The naive solution would be to simply flag certain words (`hurricane`, `blaze`, `downpour`, etc.) as being likely to refer to a disaster but this may have unintended consequences as it doesn't take into account linguistic patterns and slang which could see them being used in a positive connotation. See the example below for reference to this phenomenon of seemingly disaster-related words being used in a positive context.
 
 ![image](https://github.com/user-attachments/assets/acd3d91b-de4f-4394-8878-09824d64bdaf) 
 

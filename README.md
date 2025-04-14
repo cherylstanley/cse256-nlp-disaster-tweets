@@ -16,8 +16,8 @@
 
 ### In the above image, the author explicitly uses the word `ABLAZE` but means it metaphorically. This is immediately clear to you or I or any other human, especially with the visual aid. But it's less clear to a machine without the context to human language and linguistic expressions that we have.
 
-My approach saw a baseline accuracy of **73.64%** using neural networks, with an improvement of up to **83.64%** accuracy through an implementation of an advanced DistiliBERT model.
-
 I experimented with multiple hyperparameters including batch size, number of epochs, and pretrained embeddings to achieve a greater accuracy for this model and learned a lot through error analysis and employing techniques learned from different research papers experimenting with similar datasets and goals.
+
+My final approach saw a baseline accuracy of **73.64%** using neural networks, with an improvement of up to **83.64%** accuracy through an implementation of an advanced DistiliBERT model
 
 My findings from this research were summarized and contained in a final research report which can be found in the main directory of this repository! Thank you for reading

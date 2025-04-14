@@ -3,9 +3,9 @@
 
 
 ## How do you determine whether a tweet refers to a disaster to not?
-In the age of social media and as smartphones have become an increasingly ubiquitous form of communication, Twitter has become a more and more widespread and commonly used
+* In the age of social media, as smartphones have become an increasingly ubiquitous form of communication, Twitter has become a more and more widespread and commonly used tool for signalling immediate communication. This includes bringing attention to disasters and news coverage for current events in a non-traditional way. But sometimes content flagging mechanisms in Twitter may have trouble categorizing tweets as to whether or not they refer to a disaster due to missing context that AI might not have. Can we really train AI to categorize tweets correctly given that they have to learn this context for themselves?
 
-This project seeks to answer that very question, by utilizing sentiment analysis and natural language processing to categorize tweets from a dataset, assigning a binary label target value of 0 or 1, to predict whether or not the tweet is referring to a disaster. 
+* This project seeks to answer that very question, by utilizing sentiment analysis and natural language processing to categorize tweets from a dataset, assigning a binary label target value of 0 or 1, to predict whether or not the tweet is referring to a disaster. 
 
 The dataset was obtained from Kaggle and contains thousands of tweets labelled as positive or negative as it relates to whether or not they relate to disasters. The dataset can be found at this link : https://www.kaggle.com/competitions/nlp-getting-started/overview
 

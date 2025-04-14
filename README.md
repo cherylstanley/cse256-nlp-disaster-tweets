@@ -12,6 +12,8 @@ The dataset was obtained from Kaggle and contains thousands of tweets labelled a
 Now the naive solution would be to simply flag certain words (`hurricane`, `blaze`, `downpour`, etc.) as being likely to refer to a disaster but this may have unintended consequences as it doesn't take into account linguistic patterns and slang which could see them being used in a positive connotation. See the example below for reference to this phenomenon of seemingly disaster-related words being used in a positive context.
 
 ![image](https://github.com/user-attachments/assets/acd3d91b-de4f-4394-8878-09824d64bdaf) 
+
+
 In the above image, the author explicitly uses the word `ABLAZE` but means it metaphorically. This is immediately clear to you or I or any other human, especially with the visual aid. But it's less clear to a machine without the context to human language and linguistic expressions that we have.
 
 My approach saw a baseline accuracy of 73.64% using neural networks, with an improvement of up to 83.64% accuracy through an implementation of an advanced DistiliBERT model. 
